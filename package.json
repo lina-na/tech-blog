@@ -1,0 +1,45 @@
+{
+	"name": "tech-blog",
+	"version": "1.0.0",
+	"description": "A blog built in Node.js, Express, MongoDB and Pug",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"build": "gulp js-minify && gulp css-minify",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"blog",
+		"express",
+		"pug",
+		"tech",
+		"node",
+		"js"
+	],
+	"author": "lina-na",
+	"repository": "github:lina-na/tech-blog",
+	"license": "MIT",
+	"dependencies": {
+		"@types/underscore": "^1.8.9",
+		"bcrypt-nodejs": "0.0.3",
+		"body-parser": "^1.18.3",
+		"connect-flash": "^0.1.1",
+		"cookie-parser": "^1.4.3",
+		"express": "^4.16.3",
+		"express-rate-limit": "^3.1.0",
+		"express-session": "^1.15.6",
+		"express-sitemap": "^1.8.0",
+		"gulp": "^3.9.1",
+		"gulp-cli": "^2.0.1",
+		"gulp-cssmin": "^0.2.0",
+		"gulp-minify": "^3.1.0",
+		"gulp-rename": "^1.4.0",
+		"gulp-uglify": "^3.0.1",
+		"mongoose": "^5.2.10",
+		"nodemailer": "^4.6.8",
+		"passport": "^0.4.0",
+		"passport-local": "^1.0.0",
+		"pug": "^2.0.3",
+		"underscore": "^1.9.1"
+	}
+}
